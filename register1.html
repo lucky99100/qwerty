@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registratin Form</title>
+    <style>
+        label {
+            color:blue;
+        }
+        a {
+            color: blueviolet;
+        }
+        body {
+            background-color:blanchedalmond;
+        }
+        h1 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h4><i>Links:</i></h4>
+<a href="index3.html">Home</a>
+<br>
+<a href="student.html">Student</a>
+<br>
+<a href="register1.html">Register</a>
+<br>
+<a href="contact.html">Contact</a>
+<hr>
+<h1>Student Registration Form</h1>
+<hr>
+<form>
+    <label>Student Name:</label>
+    <input type="text" placeholder="Enter your name" name="name">
+    <br>
+    <br>
+    <label>Email:</label>
+    <input type="email" placeholder="Enter your email" name="email" required>
+    <br>
+    <br>
+    <label>Mobile No:</label>
+    <input type="tel" placeholder="Enter your mobile no" name="mNo">
+    <br>
+    <br>
+    <label>DOB:</label>
+    <input type="date" placeholder="Enter your date of birth" name="dob" required>
+    <br>
+    <br>
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female
+    <br>
+    <br>
+    <label>Course:</label>
+    <select name="course">
+        <option>Select course</option>
+        <option>ENTC</option>
+        <option>MCS</option>
+        <option>MCA</option>
+        <option>BCS</option>
+        <option>BCA</option>
+        <option>MBA</option>
+    </select>
+    <br>
+    <br>
+    <label>Hobbies:</label>
+    <input type="checkbox" name="hobby">Reading
+    <br>
+    <input type="checkbox" name="hobby">Sports
+    <br>
+    <input type="checkbox" name="hobby">Writing
+    <br>
+    <input type="checkbox" name="hobby">Music
+    <br>
+    <input type="checkbox" name="hobby">Drawing
+    <br>
+    <br>
+    <label>Address:</label>
+    <input type="text" placeholder="Enter your address" name="address">
+    <br>
+    <br>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+    
+
+
+</form>
+</body>
+</html>
