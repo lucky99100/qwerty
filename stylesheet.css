@@ -1,0 +1,77 @@
+/* stylesheet.css */
+
+/* --- General Body Styling (Applies to all pages) --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px; /* Space around the entire content */
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+}
+
+/* --- Headings --- */
+h1 {
+    color: #004d99; /* Dark blue color */
+    border-bottom: 2px solid #004d99;
+    padding-bottom: 5px;
+}
+
+/* --- Paragraphs and Lists --- */
+p, ul {
+    line-height: 1.6;
+}
+
+/* --- Navigation Links --- */
+/* Style the links to look like a clean menu */
+a {
+    color: #cc0000; /* Red link color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #ff3333;
+}
+
+/* --- Table Styling (For the Student List page) --- */
+table {
+    width: 80%;
+    border-collapse: collapse; /* Removes double borders */
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #004d99;
+    color: white;
+}
+
+/* --- Form Styling (For the Registration and Contact pages) --- */
+form label {
+    display: inline-block;
+    width: 150px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+input[type="submit"], input[type="reset"], button {
+    background-color: #00cc66; /* Green submit button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #00994d;
+}
+    
